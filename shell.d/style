@@ -1,5 +1,0 @@
-export PS1="\w > \[$(tput sgr0)\]"
-export CLICOLOR=1
-
-# For system that doesn't use eudev, like Mac OS X
-alias local-ip="ifconfig | grep -i 192.168."

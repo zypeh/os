@@ -10,6 +10,9 @@ case "$-" in
 	*) return;;
 esac
 
-for file in $HOME/.sh.d/*; do
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+
+for file in $HOME/shell.d/*; do
 	. $file
 done
