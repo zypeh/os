@@ -14,3 +14,13 @@ I tend to jot down my notes and thoughts on my blog, be patient and stay tuned.
   .shell.d —— shell scripts
 
 ```
+
+### Installation
+Just clone this repository and soft link these files to your `$HOME`.
+
+```shell
+git clone https://github.com/zypeh/os.git
+ln -s ~/os/.bashrc .bashrc
+```
+
+If you want to add your own shell script, just put it under `$HOME/os/shell.d`.
